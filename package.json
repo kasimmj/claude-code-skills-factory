@@ -1,0 +1,15 @@
+{
+  "name": "claude-code-skills-factory",
+  "version": "0.1.0",
+  "description": "Generate production-ready Claude Code skills from natural language descriptions.",
+  "type": "module",
+  "bin": {
+    "claude-skill": "dist/cli.js"
+  },
+  "keywords": ["claude-code", "claude", "anthropic", "skills", "ai-tools", "cli", "generator"],
+  "author": "Kasim Mohammed",
+  "license": "MIT",
+  "repository": "git+https://github.com/kasimmj/claude-code-skills-factory.git",
+  "engines": {"node": ">=18"},
+  "files": ["dist", "templates", "README.md", "LICENSE"]
+}
